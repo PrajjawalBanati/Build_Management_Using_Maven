@@ -1,1 +1,12 @@
+name: 'Creating a maven build'
+author: 'PrajjawalBanati'
+description: 'Create a maven build of your project automatically at the time you push your code into your project'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'award'
+  color: 'green'
+  
+
 
