@@ -56,7 +56,26 @@ void div(int a,double b)//one type is int and one is double
 	System.out.println(d);
 }	
 }
-class Calculator extends Division{
+class Subtraction extends Division{
+ public int c;
+        public double d;
+void div(double a,double b)//both types are double
+{
+        d=a-b;
+        System.out.println(d);
+}
+void div(int a,int b)//both types are int
+{
+        c=a-b;
+        System.out.println(c);
+}
+void div(int a,double b)//one type is int and one is double
+{
+        d=a-b;
+        System.out.println(d);
+}
+}
+class Calculator extends Subtraction{
 	public static void main(String[]args)
 	{
 		Calculator obj = new Calculator();
