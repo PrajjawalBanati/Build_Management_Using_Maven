@@ -37,7 +37,26 @@ void add(int a,double b)//one type is int and one is double
 	System.out.println(d);
 }
 }
-class Calculator extends Addition{
+class Division extends Addition{
+	public int c;
+	public double d;
+void div(double a,double b)//both types are double
+{
+	d=a/b;
+	System.out.println(d);
+}
+void div(int a,int b)//both types are int
+{
+	c=a/b;
+	System.out.println(c);
+}
+void div(int a,double b)//one type is int and one is double
+{
+	d=a/b;
+	System.out.println(d);
+}	
+}
+class Calculator extends Division{
 	public static void main(String[]args)
 	{
 		Calculator obj = new Calculator();
@@ -47,6 +66,8 @@ class Calculator extends Addition{
 		obj.mul(3,2);
 		obj.mul(3.1f,4);
 		obj.mul(3.1f,8.1f);
+		obj.div(6,2);
+		obj.div(14,7);
 	}
 }
 
