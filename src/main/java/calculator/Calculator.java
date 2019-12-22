@@ -59,17 +59,17 @@ void div(int a,double b)//one type is int and one is double
 class Subtraction extends Division{
  public int c;
         public double d;
-void div(double a,double b)//both types are double
+void sub(double a,double b)//both types are double
 {
         d=a-b;
         System.out.println(d);
 }
-void div(int a,int b)//both types are int
+void sub(int a,int b)//both types are int
 {
         c=a-b;
         System.out.println(c);
 }
-void div(int a,double b)//one type is int and one is double
+void sub(int a,double b)//one type is int and one is double
 {
         d=a-b;
         System.out.println(d);
