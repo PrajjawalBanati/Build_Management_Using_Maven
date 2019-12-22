@@ -2,6 +2,9 @@ package javastrings;
 
 public class Name {
 
-hello
+public static void main(String args[])
+{
+System.out.println("Hello Mates");
+}
 
 }
